@@ -29158,7 +29158,7 @@ class Sample {
 
 >Anımsanacağı gibi programlamada **null address** belleğin kullanılmayan bir adresine verilen isimdir. Java'da null address **null** sabiti ile temsil edilir. null türü olmayan bir adrestir. Dolayısıyla bir referans değişkene atanabilir. Temel türden bir değişkene atanamaz. İçerisinde null adres bulunan bir referans ile nesne gösteriyormuş gibi erişim yapılması durumunda exception oluşur. null adresin kullanımına yönelik tipik durumlar şunlardır:
 >- Kontrol amaçlı kullanılır. Örneğin bir referansın null olması durumuna göre işlem yapılır.
->- Bir metodun geri dönüş değeri bir referans ise ve metot akışı içerisinde bir nesnenin adresine dönülemiyorsa null adrese geri dönülebilir. Aşağıdaki örnek metodun parametre değişkenlerinin geçersiz olması durumunda null adrese dönülmüştür:
+>- Bir metodun geri dönüş değeri bir referans ise ve metot akışı içerisinde bir hata oluşursa nesnenin adresine dönülemiyorsa null adrese geri dönülebilir. Aşağıdaki örnek metodun parametre değişkenlerinin geçersiz olması durumunda null adrese dönülmüştür:
 
 ```java
 public static Point createRandomPoint(Random random, double origin, double bound)  
